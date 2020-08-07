@@ -1,0 +1,66 @@
+@import url(https://hellbound1337.github.io/dark-discord/src/source.css);
+
+.theme-dark,
+.theme-light,
+:root {
+    --background-primary: #2e3440!important;
+    --background-secondary: #2e3440 !important;
+    --background-secondary-alt: #2e3440 !important;
+    --background-tertiary: #2e3440 !important;
+    --background-accent: #3b4252 !important;
+    --background-floating: #2e3440 !important; 
+    --background-modifier-hover: #3b4252 !important;
+    --background-modifier-active: #3b4252 !important;
+    --background-modifier-selected: #3b4252 !important;
+    --background-modifier-accent: #3b4252 !important;
+    --channeltextarea-background: var(--background-accent) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --text-muted: #d8dee9 !important;
+    --text-normal: #fbfbfb !important; 
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #747474 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+    --offline-color: rgb(60, 60, 60) !important;
+}
+.closedFolderIconWrapper-15K9MK{
+  background-color: #3b4252;
+}
+.expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-{
+    background-color: #3b4252;
+}
+.pingForeground-2uAOZ3{
+   fill: #a3be8c;
+}
+.circleIconButton-jET_ig, .circleIconButton-jET_ig{
+   color: #a3be8c;
+}
+[mask="url(#svg-mask-status-dnd)"]{
+  fill: #bf616a
+}
+[mask="url(#svg-mask-status-online)"]{
+  fill: #a3be8c
+}
+[mask="url(#svg-mask-status-idle)"]{
+  fill: #d08770
+}
+.contents-18-Yxp{
+  color: #a3be8c
+}
+[mask="url(#0746f8b5-0e54-4206-bc9b-da93ba0a5e30)"]{
+	fill: #bf616a
+}
+[mask="url(#0197a9da-8cc5-4f4a-b4a6-a135b69583ee)"]{
+    fill: #a3be8c
+}
+[mask="url(#37858695-70ef-411e-b71c-967b3b768a76)"]{
+  fill: #ebcb8b
+}
