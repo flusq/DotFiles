@@ -1,6 +1,6 @@
 # Dots 
 
-![](./screnn.png)
+![](screen.png)
 
 - OS: Arch Linux
 - WM: bspwm
