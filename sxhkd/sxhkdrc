@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	st
+	kitty
 
 # program launcher
 super + d
-	rofi -show run 
+	Heinzel
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -124,9 +124,9 @@ super + {Left,Down,Up,Right}
 
 	#Volume Control
 XF86AudioLowerVolume
-	amixer set Master 5%-
+	amixer set Master 5.0%-
 XF86AudioRaiseVolume
-	amixer set Master 5%+
+	amixer set Master 5.0%+
 XF86AudioMute
         amixer set Master toggle
 
@@ -134,10 +134,10 @@ XF86AudioMute
 XF86MonBrightnessUp
 	light -A 10
 
-#bri down 
+#bri down
 XF86MonBrightnessDown
 	light -U 10
 
-#screnshot 
+#screnshot
 super + p
 	scrot /home/jora/Screenshot/%d-%m-%Y_%H-%M-%S.png
