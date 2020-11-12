@@ -7,7 +7,7 @@
 
 - bar: polybar
 - program launcher: [heinzel](https://github.com/flusq/Heinzel) 
-- colortheme: flacon
+- colortheme: [falcon](https://github.com/fenetikm/falcon)
 - terminal: kitty
 - shell: zsh
 
