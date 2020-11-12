@@ -6,7 +6,7 @@
 - WM: bspwm
 
 - bar: polybar
-- program launcher: [heinzel] (https://github.com/flusq/Heinzel) 
+- program launcher: [heinzel](https://github.com/flusq/Heinzel) 
 - colortheme: flacon
 - terminal: kitty
 - shell: zsh
