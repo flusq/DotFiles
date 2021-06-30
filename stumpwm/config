@@ -1,0 +1,19 @@
+(in-package :stumpwm)
+
+;(load-module "notify")
+;(notify:notify-server-toggle)
+    
+(defun config-file (&rest path)
+	(apply #'uiop:xdg-config-home "stumpwm" path))
+
+(load (config-file "bindings.lisp"))
+(load (config-file "commands.lisp"))
+(load (config-file "theme.lisp"))
+
+
+(run-commands
+    "gnewbg 2"
+    "gnewbg 3"
+    "gnewbg 4")
+
+(run-shell-command "ru")
